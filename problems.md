@@ -59,6 +59,7 @@ enum Result<T, E> {
 # "Fearless" concurrency
 ## Borrowing rules
 * Only one owner
+* No aliassing
 * Easier debugging
 
 ---
