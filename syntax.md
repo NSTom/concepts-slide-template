@@ -12,7 +12,7 @@ sansfont: Fira Sans Light
 # Variable bindings
 
 * Use *let* keyword to create binding
-* Binding are immutable by default
+* Bindings are immutable by default
 * Lhs not a name, but a *pattern*
 * Type annotations
 
@@ -45,7 +45,7 @@ println!("Something"); // Statement
 
 # Arrays and tuples
 
-Array can be created like this:
+Arrays can be created like this:
 
 ```rust
 let mut y = [4, 5, 6];
@@ -69,7 +69,7 @@ let (x, y, z) = (1, 2, 3); // Destructured tuple
 # Control flow
 
 * *If*, *else*, *else if*...
-* Loops, like *loop*, *while*
+* Loops, like *loop*, *while* and *for*
 
 ```rust
 let x = 2;
@@ -106,7 +106,7 @@ for i in &mut v {} // Mutable reference
 
 * Comparable to classes.
 * Fields cannot be mutable
-* Can also have methods and associated functions.
+* Can also have methods and associated functions
 
 ```rust
 struct Point {
