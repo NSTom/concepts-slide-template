@@ -121,7 +121,6 @@ impl Point {
 }
 let point = Point { x: 3, y: 6 };
 point.print_xy(); // Shows x is 3, y is 6.
-let point_2 = Point {y: 3, ..point}; //Only change y, copy x from point
 ```
 
 ---
@@ -158,26 +157,40 @@ let m = Choice::Milk(20);
 
 ---
 
+# Generics
+
+* Generic structs, enums and functions.
+
+```rust
+fn takes_anything<T, U>(x: T, u: U) {}
+
+struct Value<T> {
+value : T
+}
+
+enum Choice<T> {
+	Milk(T),
+}
+```
+
+---
+
 # Traits
 
 * Somewhat comparable to an interface
 * Use trait bounds on generics
-
 ```rust
 struct Square {
     side: f64,
 }
-
 trait HasArea {
     fn area(&self) -> f64;
 }
-
 impl HasArea for Square {
     fn area(&self) -> f64 {
         self.side * self.side
     }
 }
-
 fn print_area<T: HasArea>(shape: T) {
     println!("This shape has an area of {}", shape.area());
 }
@@ -187,9 +200,9 @@ fn print_area<T: HasArea>(shape: T) {
 
 # Much, much more..
 
+* Smart pointers
 * Concurrency
 * Closures
-* Macros
 * ...
 
 
