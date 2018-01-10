@@ -88,7 +88,21 @@ Mozilla Research:
 
 * efficient C bindings
 
+---
 
+AHHH ALLEMAAL STUFFFF
+
+
+---
+
+# Practical
+
+* Mature & intuitive package manager (cargo)
+* Lots of libraries from a vibrant community
+* i.a. IDE priority this year
+* Basic linting and debugging 
+* Get started on [https://doc.rust-lang.org](https://doc.rust-lang.org)
+* Used because of safety, performance and being practical
 
 
 
