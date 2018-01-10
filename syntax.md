@@ -105,7 +105,6 @@ for i in &mut v {} // Mutable reference
 # Structs
 
 * Comparable to classes.
-* Fields cannot be mutable
 * Can also have methods and associated functions
 
 ```rust
