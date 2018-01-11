@@ -562,9 +562,8 @@ thread::spawn(move || {
 ---
 
 # Conclusion
-
-* Fast & safe systems programming language
-* Ownership & borrowing paradigms
+“Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.”
+“It fuses the expressive and intuitive syntax of high-level languages with the control and performance of a low-level language.”
 
 ---
 
