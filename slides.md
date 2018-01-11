@@ -327,7 +327,7 @@ Different systems
 ```rust
 let x = String::from("hello");
 ```
-The variable _x_ is the owner of the value 5.
+The variable _x_ is the owner of the string object "hello" on the heap.
 
 The string object will be deallocated when _x_ goes out of scope.
 
