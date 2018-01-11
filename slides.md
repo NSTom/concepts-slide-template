@@ -305,7 +305,7 @@ Different systems
 
 . . .
 
-* Smart pointers (reference counting)
+* Automatic reference counting
 
 . . .
 
