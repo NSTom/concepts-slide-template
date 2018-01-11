@@ -399,17 +399,6 @@ let slice = &some_numbers[0..3]; // [0, 1, 2]
 
 # Smart pointers
 
-* Sometimes you may want more freedom
-* For these situations, reference counting is also possible in Rust
-
-```rust
-let a = Rc::new(String::from("Blue"));
-```
-
----
-
-# Smart pointers
-
 * Box
 * Enables recursive data types
 
@@ -429,6 +418,17 @@ let list = List::Cons(1,
                Box::new(List::Nil))))));
                
 // list = (1 : (2 : (3 : [])))
+```
+
+---
+
+# Reference counting using smart pointers
+
+* Sometimes you may want more freedom
+* For these situations, reference counting is also possible in Rust
+
+```rust
+let a = Rc::new(String::from("Blue"));
 ```
 
 ---
